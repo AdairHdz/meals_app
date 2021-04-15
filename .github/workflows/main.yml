@@ -27,6 +27,6 @@ jobs:
       - uses: subosito/flutter-action@v1
         with:
           channel: dev
-      - uses: passsy/dart-lint@v1.5.3
+      - uses: passsy/dart-lint@v1
       - run: flutter pub get
       #- run: flutter test
